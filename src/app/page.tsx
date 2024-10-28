@@ -1,4 +1,4 @@
-import { Footer, Header, Hero, Main, NavigationItem } from '@/lib/ui';
+import { Header, Hero, Main, NavigationItem } from '@/lib/ui';
 
 export default function Landing() {
     return (
