@@ -10,12 +10,12 @@
 
 .hero_imagery {
     max-width: 65%;
+}
 
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 32px;
-    }
+.hero_imagery img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
 }
 
 .hero_textual {
@@ -24,16 +24,16 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 16px;
+}
 
-    h1 {
-        font-size: 24px;
-        font-weight: 900;
-    }
+.hero_textual h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
 
-    h2 {
-        font-weight: 600;
-        font-style: italic;
-    }
+.hero_textual h2 {
+    font-weight: 600;
+    font-style: italic;
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
