@@ -6,3 +6,5 @@ export { default as Content } from '../ui/layout/Content';
 
 // shared
 export { default as Brand } from '../ui/shared/Brand';
+export { default as Navigation } from '../ui/shared/Navigation';
+export { default as NavigationItem } from '../ui/shared/NavigationItem';
