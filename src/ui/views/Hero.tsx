@@ -25,7 +25,7 @@ export default function Hero() {
                     security effortlessly.
                 </p>
                 <Button
-                    url=''
+                    url='https://github.com/ogithaka/auth'
                     name='GitHub'
                 />
             </div>

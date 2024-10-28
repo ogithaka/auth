@@ -65,7 +65,8 @@
 }
 
 @media (min-width: 1536px) {
-    .header {
+    .header,
+    .main {
         padding-left: calc(64px + calc(100% - 1536px) / 2);
         padding-right: calc(64px + calc(100% - 1536px) / 2);
         width: calc(
