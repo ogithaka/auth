@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import '@/styles/global.css';
+import { Albert_Sans } from 'next/font/google';
+
+const albertSans = Albert_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Auth',
@@ -12,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body>{children}</body>
+            <body className={albertSans.className}>{children}</body>
         </html>
     );
 }
