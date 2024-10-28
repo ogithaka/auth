@@ -8,3 +8,7 @@ export { default as Content } from '../ui/layout/Content';
 export { default as Brand } from '../ui/shared/Brand';
 export { default as Navigation } from '../ui/shared/Navigation';
 export { default as NavigationItem } from '../ui/shared/NavigationItem';
+export { default as Button } from '../ui/shared/Button';
+
+// views
+export { default as Hero } from '../ui/views/Hero';

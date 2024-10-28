@@ -1,0 +1,46 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.hero_imagery {
+    max-width: 65%;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 32px;
+    }
+}
+
+.hero_textual {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 900;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+    }
+    .hero_imagery {
+        max-width: 100%;
+    }
+}

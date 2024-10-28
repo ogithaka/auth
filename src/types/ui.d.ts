@@ -12,6 +12,16 @@ declare global {
     interface HeaderProps {
         children: ReactNode;
     }
+    interface ContentProps {
+        children: ReactNode;
+    }
+    interface MainProps {
+        children: ReactNode;
+    }
+    interface ButtonProps {
+        url: string;
+        name: string;
+    }
 }
 
 export {};
