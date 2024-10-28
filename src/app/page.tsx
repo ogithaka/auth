@@ -1,3 +1,11 @@
+import { Footer, Header, Main } from '@/lib/ui';
+
 export default function Landing() {
-    return <></>;
+    return (
+        <>
+            <Header />
+            <Main />
+            <Footer />
+        </>
+    );
 }
