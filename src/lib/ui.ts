@@ -17,3 +17,5 @@ export { default as Hero } from '../ui/views/Hero';
 export { default as Login } from '../ui/views/Login';
 export { default as Register } from '../ui/views/Register';
 export { default as Reset } from '../ui/views/Reset';
+export { default as Dashboard } from '../ui/views/Dashboard';
+export { default as Lock } from '../ui/views/Lock';
