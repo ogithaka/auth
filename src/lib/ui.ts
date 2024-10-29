@@ -9,6 +9,11 @@ export { default as Brand } from '../ui/shared/Brand';
 export { default as Navigation } from '../ui/shared/Navigation';
 export { default as NavigationItem } from '../ui/shared/NavigationItem';
 export { default as Button } from '../ui/shared/Button';
+export { default as InputField } from '../ui/shared/InputField';
+export { default as Form } from '../ui/shared/Form';
 
 // views
 export { default as Hero } from '../ui/views/Hero';
+export { default as Login } from '../ui/views/Login';
+export { default as Register } from '../ui/views/Register';
+export { default as Reset } from '../ui/views/Reset';

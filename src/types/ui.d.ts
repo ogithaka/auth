@@ -22,6 +22,18 @@ declare global {
         url: string;
         name: string;
     }
+    interface InputFieldProps {
+        label?: string;
+        id?: string;
+        type: string;
+        value?: string;
+        placeholder?: string;
+        method?: (e: any) => void;
+    }
+    interface FormProps {
+        children: ReactNode;
+        method?: (e: React.FormEvent) => void;
+    }
 }
 
 export {};
