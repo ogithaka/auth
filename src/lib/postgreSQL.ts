@@ -1,11 +1,15 @@
 import { Pool } from 'pg';
 
 const pool = new Pool({
-    user: process.env.PostgreSQL_User,
-    host: process.env.PostgreSQL_Host,
-    database: process.env.PostgreSQL_Database,
-    password: process.env.PostgreSQL_Password,
-    port: Number(process.env.PostgreSQL_Port),
+    connectionString: process.env.DATABASE_URL,
 });
 
-export default pool;
+export const query = async ({ query, params }: queryParameters) => {
+    try {
+        const result = await pool.query(query, params);
+        return result;
+    } catch (error) {
+        console.error('Database query error:', error);
+        throw new Error('Database query failed');
+    }
+};
